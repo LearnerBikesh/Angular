@@ -1,0 +1,18 @@
+# Ignore everything by default
+*
+
+# Keep the .gitignore itself
+!.gitignore
+
+# allow all the first-level folder
+!*/
+
+
+# Allow the folders/files in any child folder
+!**/src/
+!**/src/**
+!**/public/
+!**/public/**
+!**/README.md
+!**/package-lock.json
+
